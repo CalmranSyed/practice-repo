@@ -8,24 +8,30 @@
     padding: 0;
 }
 
-.container {
-    max-width: 1100px;
+.container{
+    margin: auto;
+    max-width: 1250px;
+    height: auto;
+}
+
+.btn-dark { 
+    font-size: 14px;
+    padding: 10px 20px;
 }
 
 body {
     font-family: "Montserrat", sans-serif;
 }
 
-.nav-link { color: #000;}
+.nav-link { 
+    color: #000;
+}
 
 .nav-link:hover { color: #000;}
 
+
 .navbar a {
     font-size: 14px;
-}
-
-.navbar .dropdown-menu ul:focus{
-    border: none;
 }
 
 marquee { 
@@ -40,14 +46,16 @@ marquee {
     padding: 0 40px; 
 }
 
-.contact a {color: #fff;}
+.contact a, .contact a:hover {
+    color: #fff;
+}
 
 .user {
     padding-right: 0;
 }
 
 
-.header { padding: 20px 30px;}
+.header { padding: 20px 40px;}
 
 .currency {
     
@@ -55,4 +63,94 @@ marquee {
     font-size: 14px;
     border:1px solid #ececec;
 }
+
+.navbar .nav-link { 
+    padding: 16px 16px 30px;
+}
+
+.dog-menu , .cat-menu , .toy-menu{
+    padding: 0;
+}
+
+.container a{
+    cursor: pointer;
+}
+
+.bg-sec { background: #e6e7e8;}
+
+.toy-menu img {
+    border-radius: 50%;
+}
+
+.blogs a {font-size: 14px;}
+
+.newsletter {
+    margin-top: 70px;
+    padding: 20px 20px 100px;
+    background: #fff;
+    color: #333;
+}
+
+.newsletter h1 { 
+    font-size: 55px;  
+}
+
+img[src="https://cdn.shopify.com/s/files/1/1199/8502/files/HAPPY_CUSTOMER_BANNER_RESIZE.jpg"]
+{
+    padding:auto 70px;
+}
+
+.footer a {color: #fff;}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer .nav-link { padding-left: 0;}
+
+.store .payment-methods li{ display: inline;}
+
+@media (min-width:768px) {
+    .dropdown:hover .dropdown-menu { display: block ;} 
+    
+    .video-ad iframe, .video-ad .content {
+        width: 50%;
+    }
+    
+    .address iframe, .address + div {
+        width: 50%;
+    }
+
+    .newsletter .form-control {
+        margin: auto;
+        width: 25%;
+    }
+}
+@media (max-width:768px) {
+    .dog-menu .nav-link , .cat-menu .nav-link ,  .toy-menu .nav-link{
+        padding: 8px;
+    }
+
+    .video-ad iframe, .video-ad .content {
+        width: 100%;
+    }
+    
+    .address iframe, .address + div {
+        width: 100%;
+    }
+
+    .newsletter {
+        margin-top: 35px;
+        padding: 10px 15px 40px;
+
+    }
+    
+    .newsletter h1 { 
+        font-size: 35px;  
+    }
+
+}
+
+
+
 
